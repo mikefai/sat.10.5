@@ -106,6 +106,7 @@ export default function App() {
   return <div className="app-shell">
     <aside className={`sidebar ${menuOpen ? 'open' : ''}`} aria-label="Topics">
       <div className="brand"><span className="brand-mark"><Icon name="book" size={22} /></span><div><strong>Math Atlas</strong><small>Digital SAT Math · 2026</small></div></div>
+      <a className="exam-entry-link" href="?mode=exam">Take the full Math mock exam <span>↗</span></a>
       <div className="sidebar-label">Nine study modules</div>
       <nav className="module-nav" aria-label="Study modules">
         {modules.map((module, index) => <button type="button" key={module.id} onClick={() => navigate(module.id)} className={module.id === active.id ? 'active' : ''} aria-current={module.id === active.id ? 'page' : undefined}>

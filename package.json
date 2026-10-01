@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "validate:content": "node scripts/validate-content.mjs",
-    "audit:math": "node scripts/audit-math.mjs"
+    "audit:math": "node scripts/audit-math.mjs",
+    "validate:exam": "node scripts/validate-exam.mjs",
+    "audit:exam": "node scripts/audit-exam.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",

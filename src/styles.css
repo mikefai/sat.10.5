@@ -9,3 +9,5 @@
 @media(max-width:390px){.lesson{padding-left:15px;padding-right:15px}.progress-track{display:none}.progress-label{font-size:11px}.topbar{padding:0 13px}.top-actions{gap:4px}.example-options{grid-template-columns:1fr}.module-status span+span{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sidebar{transition:none}}
 @media print{.sidebar,.topbar,.right-rail,.practice-actions,.module-next{display:none!important}.page-area{width:100%}.lesson{max-width:none;padding:0 15mm}.content-grid{display:block}.practice-card,.exemplar,.answer-key{break-inside:avoid}.section-heading{break-after:avoid}.option input{opacity:0}.feedback{display:block}body{background:#fff}}
+/* Entry point from the study guide to the complete exam. */
+.exam-entry-link{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:20px 13px 22px;padding:14px 15px;border-radius:9px;background:#176f6b;color:#fff!important;text-decoration:none;font-size:12px;font-weight:700;line-height:1.3}.exam-entry-link:hover{background:#105652}.exam-entry-link span{font-size:17px}
